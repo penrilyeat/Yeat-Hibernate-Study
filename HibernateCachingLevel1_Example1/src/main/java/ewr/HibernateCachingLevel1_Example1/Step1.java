@@ -39,7 +39,7 @@ public class Step1 {
 		s.save(a4);
 		s.save(a5);
 		tx.commit();
-		
+		s.close();
 		
 
 	}
